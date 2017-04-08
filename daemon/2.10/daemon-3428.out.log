@@ -1,0 +1,197 @@
+13:44:43.015 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=e4ea9c9b-61bb-4232-9c9d-aa84d05173d6,javaHome=/home/deepak/android-studio-ide-145.3537739-linux/android-studio/jre,daemonRegistryDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/daemon,pid=3428,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+13:44:43.018 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1491639283018
+13:44:43.026 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface wlp1s0
+13:44:43.026 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+13:44:43.027 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+13:44:43.027 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:4d9c:897f:df27:1088%wlp1s0
+13:44:43.028 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.0.103
+13:44:43.029 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface wlp1s0
+13:44:43.029 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface lo
+13:44:43.030 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+13:44:43.030 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+13:44:43.030 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1%lo
+13:44:43.031 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+13:44:43.043 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [241f31d1-08de-489b-91f9-00b7aaa1b811 port:44395, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]].
+13:44:43.045 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sat Apr 08 13:44:43 IST 2017, with address: [241f31d1-08de-489b-91f9-00b7aaa1b811 port:44395, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:44:43.046 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [241f31d1-08de-489b-91f9-00b7aaa1b811 port:44395, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:44:43.046 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=e4ea9c9b-61bb-4232-9c9d-aa84d05173d6,javaHome=/home/deepak/android-studio-ide-145.3537739-linux/android-studio/jre,daemonRegistryDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/daemon,pid=3428,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+13:44:43.047 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [241f31d1-08de-489b-91f9-00b7aaa1b811 port:44395, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]], context: DefaultDaemonContext[uid=e4ea9c9b-61bb-4232-9c9d-aa84d05173d6,javaHome=/home/deepak/android-studio-ide-145.3537739-linux/android-studio/jre,daemonRegistryDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/daemon,pid=3428,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+13:44:43.053 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:44:43.055 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:44:43.057 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:44:43.058 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:44:43.059 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:44:43.078 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:44:43.078 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+13:44:43.080 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+13:44:43.080 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(10800000 MILLISECONDS) called on daemon
+13:44:43.081 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 10800000ms
+13:44:43.082 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Sat Apr 08 16:44:43 IST 2017
+13:44:43.113 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:60870 to /127.0.0.1:44395.
+13:44:43.262 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Build
+13:44:43.263 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=3471cc0a-6b32-4d59-8f9a-1ee62b504efd.1, currentDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point}
+13:44:43.264 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=3471cc0a-6b32-4d59-8f9a-1ee62b504efd.1, currentDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point}.
+13:44:43.264 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=3471cc0a-6b32-4d59-8f9a-1ee62b504efd.1, currentDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point} with connection: socket connection from /127.0.0.1:44395 to /127.0.0.1:60870.
+13:44:43.273 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=3471cc0a-6b32-4d59-8f9a-1ee62b504efd.1, currentDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7b030e5] after 0.0 minutes of idle
+13:44:43.273 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [241f31d1-08de-489b-91f9-00b7aaa1b811 port:44395, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:44:43.274 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [241f31d1-08de-489b-91f9-00b7aaa1b811 port:44395, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:44:43.275 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:44:43.275 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:44:43.280 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:44:43.280 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1491639283280
+13:44:43.280 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:44:43.282 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=3471cc0a-6b32-4d59-8f9a-1ee62b504efd.1, currentDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point}. Dispatching build started information...
+13:44:43.282 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:44:43.286 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/home/deepak/bin:/home/deepak/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin, XAUTHORITY=/run/user/1000/gdm/Xauthority, XMODIFIERS=@im=ibus, XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop, GDMSESSION=gnome, MANDATORY_PATH=/usr/share/gconf/gnome.mandatory.path, GTK_IM_MODULE=ibus, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-W6bsvoJipK,guid=8d8ea260be1783e0ba6a186858e88d44, DEFAULTS_PATH=/usr/share/gconf/gnome.default.path, XDG_CURRENT_DESKTOP=GNOME, SSH_AGENT_PID=1354, LD_LIBRARY_PATH=/home/deepak/android-studio-ide-145.3537739-linux/android-studio/bin:, QT4_IM_MODULE=xim, SESSION_MANAGER=local/mypc:@/tmp/.ICE-unix/1285,unix/mypc:/tmp/.ICE-unix/1285, USERNAME=deepak, QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, LOGNAME=deepak, PWD=/home/deepak, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, LANGUAGE=en_IN:en, GJS_DEBUG_TOPICS=JS ERROR;JS LOG, SHELL=/bin/bash, GIO_LAUNCHED_DESKTOP_FILE=/home/deepak/.local/share/applications/jetbrains-studio.desktop, J2SDKDIR=/usr/lib/jvm/java-8-oracle, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, GTK_MODULES=gail:atk-bridge, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, CLUTTER_IM_MODULE=xim, XDG_SESSION_DESKTOP=gnome, SHLVL=0, QT_IM_MODULE=ibus, JAVA_HOME=/usr/lib/jvm/java-8-oracle, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg, LANG=en_IN, XDG_SESSION_ID=1, XDG_SESSION_TYPE=x11, DISPLAY=:1, DESKTOP_SESSION=gnome, USER=deepak, XDG_MENU_PREFIX=gnome-, GIO_LAUNCHED_DESKTOP_FILE_PID=2028, QT_ACCESSIBILITY=1, WINDOWPATH=2, GJS_DEBUG_OUTPUT=stderr, SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, XDG_SEAT=seat0, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, XDG_VTNR=2, XDG_RUNTIME_DIR=/run/user/1000, HOME=/home/deepak}
+13:44:43.294 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:44:43.294 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@17c684dc
+13:44:43.300 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:44:43.300 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 3428). The daemon log file: /home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/daemon/2.10/daemon-3428.out.log
+13:44:43.331 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting build in new daemon [memory: 954.7 MB]
+13:44:43.332 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:44:43.332 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+13:44:43.334 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:44:43.335 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=e4ea9c9b-61bb-4232-9c9d-aa84d05173d6,javaHome=/home/deepak/android-studio-ide-145.3537739-linux/android-studio/jre,daemonRegistryDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/daemon,pid=3428,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+13:44:43.831 [INFO] [org.gradle.tooling.internal.provider.DefaultPayloadClassLoaderRegistry] Creating ClassLoader bd060a33-75c2-4a43-b33f-18b9be360a16 from [Spec classpath:[file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/plugins/gradle/lib/gradle-tooling-api-3.2.jar, file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/plugins/gradle/lib/guava-jdk5-17.0.jar, file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/plugins/gradle/lib/gradle-base-services-3.2.jar, file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/plugins/gradle/lib/gradle-core-3.2.jar, file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/lib/velocity.jar, file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/plugins/gradle/lib/gradle-tooling-extension-api.jar, file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/lib/external-system-rt.jar, file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/plugins/google-cloud-tools/lib/gradle-appengine-builder-model-0.1.0.jar, file:/home/deepak/android-studio-ide-145.3537739-linux/android-studio/plugins/android/lib/sdk-tools.jar]] and [org.gradle.internal.classloader.FilteringClassLoader@3c42385d].
+13:44:43.833 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on jars (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/jars-1).
+13:44:43.833 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:44:43.834 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryCache] Invalidating org.gradle.cache.internal.DefaultPersistentDirectoryCache$Initializer@25b3c68b as it was not closed cleanly.
+13:44:43.837 [DEBUG] [org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler] Starting file lock listener thread.
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder/2.1.0/builder-2.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.1.0/lint-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.1.0/gradle-api-2.1.0.pom
+Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.1.0/compilerCommon-2.1.0.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.pom
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.build/0.7.4.201502262128/org.jacoco.build-0.7.4.201502262128.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.1.0/builder-model-2.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.1.0/builder-test-api-2.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/sdklib/25.1.0/sdklib-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.1.0/sdk-common-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/common/25.1.0/common-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.1.0/manifest-merger-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.1.0/ddmlib-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.1.0/lint-checks-25.1.0.pom
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.pom
+Download https://jcenter.bintray.com/com/android/tools/annotations/25.1.0/annotations-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.1.0/baseLibrary-2.1.0.pom
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.pom
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-master/4.5/antlr4-master-4.5.pom
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.1.0/layoutlib-api-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/dvlib/25.1.0/dvlib-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/repository/25.1.0/repository-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.1.0/lint-api-25.1.0.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.pom
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.pom
+Download https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder/2.1.0/builder-2.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.1.0/lint-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.1.0/gradle-api-2.1.0.jar
+Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.1.0/compilerCommon-2.1.0.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.1.0/builder-model-2.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.1.0/builder-test-api-2.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/sdklib/25.1.0/sdklib-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.1.0/sdk-common-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/common/25.1.0/common-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.1.0/manifest-merger-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.1.0/ddmlib-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.1.0/lint-checks-25.1.0.jar
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
+Download https://jcenter.bintray.com/com/android/tools/annotations/25.1.0/annotations-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.1.0/baseLibrary-2.1.0.jar
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.1.0/layoutlib-api-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/dvlib/25.1.0/dvlib-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/repository/25.1.0/repository-25.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.1.0/lint-api-25.1.0.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar
+Download https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar
+Incremental java compilation is an incubating feature.
+Download https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+Download https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 29.805 secs
+Download https://jcenter.bintray.com/junit/junit/4.12/junit-4.12-sources.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+13:46:19.715 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_init class cache for initialization script '/tmp/asLocalRepo.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/asLocalRepo_3giwwle3cba6xngi96rp022re/cp_init).
+13:46:19.715 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on init class cache for initialization script '/tmp/asLocalRepo.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/asLocalRepo_3giwwle3cba6xngi96rp022re/init).
+13:46:19.716 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_init class cache for initialization script '/tmp/ijinit.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/ijinit_87o07vfof6oy13dwbhyezc40k/cp_init).
+13:46:19.716 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on init class cache for initialization script '/tmp/ijinit.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/ijinit_87o07vfof6oy13dwbhyezc40k/init).
+13:46:19.716 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file '/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/settings.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/settings_3v5rwtpghaf9viajggnsvxclp/cp_settings).
+13:46:19.716 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file '/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/settings.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/settings_3v5rwtpghaf9viajggnsvxclp/settings).
+13:46:19.716 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file '/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/build.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/build_9mmq60kv6fr7yfkk1oxuwnfkz/cp_proj).
+13:46:19.717 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file '/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/build.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/build_9mmq60kv6fr7yfkk1oxuwnfkz/proj).
+13:46:19.717 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file '/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/build_as9i4pwrvcyjw08w3jvug6vx6/cp_proj).
+13:46:19.717 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file '/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build.gradle' (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/scripts/build_as9i4pwrvcyjw08w3jvug6vx6/proj).
+13:46:19.725 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/jars-1).
+13:46:19.725 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 52, cache instances: 4, modules served from cache: 180, artifacts: 58
+13:46:19.727 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/modules-2/metadata-2.16/module-metadata.bin)
+13:46:19.728 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/modules-2/metadata-2.16/module-artifacts.bin)
+13:46:19.728 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/modules-2/metadata-2.16/artifact-at-url.bin)
+13:46:19.728 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/modules-2/metadata-2.16/artifact-at-repository.bin)
+13:46:19.728 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/modules-2).
+13:46:19.730 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:46:19.730 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 4, disk reads: 11 (avg: 0.001 secs, total: 0.02 secs)
+13:46:19.730 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+13:46:19.731 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point/caches/2.10/plugin-resolution) was closed 0 times.
+13:46:19.731 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:46:19.731 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:46:19.731 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:46:20.031 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:46:20.032 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:46:20.032 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=3471cc0a-6b32-4d59-8f9a-1ee62b504efd.1, currentDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7b030e5]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@38cf7df3 with state Running
+13:46:20.033 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=3471cc0a-6b32-4d59-8f9a-1ee62b504efd.1, currentDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7b030e5]
+13:46:20.033 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1491639380033
+13:46:20.033 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [241f31d1-08de-489b-91f9-00b7aaa1b811 port:44395, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:46:20.033 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [241f31d1-08de-489b-91f9-00b7aaa1b811 port:44395, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:46:20.034 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:46:20.034 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:46:20.037 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:55176<->52.24.162.39:443 closed
+13:46:20.038 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:55176<->52.24.162.39:443 closed
+13:46:20.038 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:46:20.039 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:46:20.038 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:46:20.039 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:55172<->52.24.162.39:443 closed
+13:46:20.041 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Sat Apr 08 16:46:20 IST 2017
+13:46:20.042 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:59368<->72.247.230.196:443 closed
+13:46:20.042 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:59368<->72.247.230.196:443 closed
+13:46:20.042 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:55172<->52.24.162.39:443 closed
+13:46:20.042 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:46:20.046 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:46:20.046 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:35710<->75.126.118.188:443 closed
+13:46:20.046 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:59324<->72.247.230.196:443 closed
+13:46:20.046 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:59324<->72.247.230.196:443 closed
+13:46:20.046 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:35710<->75.126.118.188:443 closed
+13:46:20.046 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:46:20.049 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@79bf1e25]
+13:46:20.049 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:46:20.066 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=3471cc0a-6b32-4d59-8f9a-1ee62b504efd.1, currentDir=/home/deepak/AndroidStudioProjects/ud843-QuakeReport-starting-point}
+13:46:20.100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Finished
+13:46:20.101 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@30f4a7e0
+13:46:20.101 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@30f4a7e0
+13:46:20.101 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:46:20.101 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+13:46:20.101 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received null
+13:46:20.101 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:46:20.102 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
